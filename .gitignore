@@ -1,0 +1,31 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.vs/
+.DS_Store
+
+# Ignore dependency files
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore test results
+TestResults/
+
+# Ignore configuration files with sensitive data
+Config/*.json
+!Config/appsettings.json # Keep appsettings.json but ignore other configs
